@@ -1,0 +1,189 @@
+body
+{
+    background-image: url(image/background.jpeg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+header{
+
+    background-color: rgb(221, 8, 47);
+    color: rgb(245, 205, 211);
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    /* padding: top right bottom left*/
+
+    padding: 12px 24px 12px 24px;
+}
+.container{
+    width: 1000px;
+    margin: 12px auto; /* centers the layout*/
+}
+.container1{
+    width: 10030px;
+    height: 50px;
+    margin: 12px auto; /* centers the layout*/
+}
+.logo img{
+    
+   
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+ 
+    
+}
+
+.link1 li{
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+.link1 ul{
+    padding-left: 0;
+}
+.link1 a, .link1 a:visited,.link1 a:active {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+/*hover =mouse is on the element*/
+
+.link1 a:hover{
+
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.link5 li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+   
+}
+.link5 ul{
+    padding-left: 0;
+}
+.link5 a, .link5 a:visited,.link5 a:active {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+/*hover =mouse is on the element*/
+
+.link5 a:hover{
+
+    
+    text-decoration: underline;
+
+}
+
+.link2 a, .link2 a:visited,.link2 a:active {
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.link2 a:hover{
+
+    color: rgb(255, 34, 0);
+    text-decoration: underline;
+
+}
+
+.link3 {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a.link3:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .link3:visited {
+    color: black;
+    text-decoration: none;/
+  }
+  
+  .link3:active {
+    color: black;
+    text-decoration: none;
+  }
+
+
+.link4 a, .link4 a:visited,.link4 a:active {
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.link4 a:hover{
+
+    color: rgb(9, 116, 9);
+    text-decoration: underline;
+
+}
+.custom-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a.custom-link:hover {
+    color: rgb(9, 116, 9);
+    text-decoration: underline;
+  }
+  
+  .custom-link:visited {
+    color: black;
+    text-decoration: none;/
+  }
+  
+  .custom-link:active {
+    color: black;
+    text-decoration: none;
+  }
+  
+
+ul.topics {
+    list-style: none;
+  }
+.Images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+  .Images img {
+    width: 200px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+
+.image-container1:hover img {
+    transform: scale(1.1,1.1)
+}
+.image-container2:hover img {
+    transform: scale(1.1,1.1)
+}
+.caption{
+    color: gray;
+}
+footer{
+    background-color: rgb(73, 70, 70);
+    color: white;
+    font-size: 20pxpx;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    /* padding: top right bottom left*/
+
+    padding: 12px 24px 12px 24px;
+}
